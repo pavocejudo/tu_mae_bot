@@ -21,6 +21,8 @@ def recibe(messages):
                     bot.send_message(m.chat.id, 'Subete los pantalones mierda')
                 elif m.from_user.username == 'McMayXIII':
                     bot.send_message(m.chat.id, 'Porreroooo')
+                elif m.from_user.username == 'MikeHendrix':
+                    bot.send_message(m.chat.id, 'Calla drogadictooo')
 
             rand = random.randint(1,20)
 
